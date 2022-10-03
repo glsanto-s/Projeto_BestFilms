@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Poppins:wght@400&display=swap');
+*{
+    font-family: 'Poppins';
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+body{
+    background:url(../img/fundo.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.act{
+    color: #fff !important;
+    border-bottom: 1px solid #fff;
+}
+.navbar ul li a:hover{
+    color: #fff !important;
+    border-bottom: 1px solid #fff;
+    transition: 0.5s;
+}
+.textRed{
+    color: rgb(126, 0, 0);
+}
+.textHW{
+    color: rgb(126, 0, 0);
+    letter-spacing: 5px;
+    font-size: 80px;
+    font-family: 'Creepster', cursive;
+}
+.navbar-nav .nav-item a{
+    font-size: 17px;
+    color: rgb(126,0,0);
+}
+.navbar-nav .line{
+    color: rgb(126, 0, 0);
+    height: 1px;
+    width: 5px;
+}
+.middle{
+    height: 80vh;
+    widows: 80%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    position: relative;
+    margin-left: 2rem;
+}
+.text{
+    font-size:50px ;
+}
+.wave{
+    position: absolute;
+    bottom: 0px;
+}
+
+
+/* responsividade */
+
+@media only screen and (max-width: 767px){
+}
